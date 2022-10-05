@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="박스오피스 TOP10"
+        android:gravity="center_horizontal"
+        android:layout_margin="0dp"
+        android:padding="8dp"
+        android:textSize="23dp"
+        android:background="#FFC107"
+        android:textColor="@color/colorPrimary" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_this"
+        android:background="@color/colorAccent"
+        android:text="이번달 랭킹"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_last"
+        android:background="@color/colorAccent"
+        android:text="지난달 랭킹"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+</LinearLayout>
